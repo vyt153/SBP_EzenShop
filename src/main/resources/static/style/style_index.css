@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+h1 {
+	text-align: center;
+	margin: 20px 0;
+}
+
+div#mainPage a {
+	color: #000;
+	text-decoration-line: none;
+}
+
+div.mainWrap * {}
+/* 슬라이드 쇼 이미지 영역 시작 */
+#sildeArea {
+	width: 100%;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+#slideImgs {
+	display: flex;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.slide_div {
+	width: 100px;
+	position: relative;
+}
+
+.slide_div img {
+	max-width: 100%;
+	margin: auto;
+}
+
+.slick-prev {
+	border: none;
+	border-radius: 50px;
+	background-color: rgba(256,256,256,0.3);
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	left: 0;
+	top: 45%;
+	z-index: 1;
+}
+
+.slick-next {
+	border: none;
+	border-radius: 50px;
+	background-color: rgba(256,256,256,0.3);
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	right: 0px;
+	top: 45%;
+	z-index: 1;
+}
+
+.slick-prev:hover, .slick-next:hover {
+	cursor: pointer;
+}
+
+.custom-prev-button,
+.custom-next-button {
+  background-color: #ccc;
+  border: none;
+  color: #fff;
+  padding: 20px;
+}
+#slideBtnArea{	display: none;}
+.arrow-left,
+.arrow-right {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 12px;
+}
+
+.arrow-left {
+	
+  border-color: transparent #000 transparent transparent;
+  margin-right: 15px;
+}
+
+.arrow-right {
+  border-color: transparent transparent transparent #000;
+  margin-left: 15px;
+}
+/* 슬라이드 쇼 이미지 영역 끝 */
+
+/* div##dailyBestArea 시작 */
+#dailyBestArea {
+	margin-top: 70px;
+	/* border: 1px solid #000;   */ /* 작업후 제거 */
+}
+
+#dailyBestArea h1 {
+	font-size: 16px;
+}
+
+#TodayBestArea {
+	width: 1500px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	margin-top: 30px;
+}
+
+.TodayBestImgArea {
+	width: calc(100%/ 5);
+	
+	padding-right: 10px;
+
+	
+	/* border: 1px solid #000;   */ /* 작업후 제거 */
+	/* padding-right: 5px; */
+}
+/* .TodayBestImg{	width: 291px; height: 377px;} */
+.TodayBestImgArea a img{ width: 300px; height: 413px;}
+
+div#TodayBestStatus {
+	justify-content: space-between;
+}
+
+.colorOption {
+	width: 225px;
+	display: inline-block;
+	margin-bottom: 10px;
+	/* border: 1px solid #000; 작업후 제거 */
+}
+
+.goodsName {
+	cursor: pointer;
+}
+
+.colorOption img {
+	height: 18px;
+}
+
+.reviewCnt {
+	font-size: 13px;
+}
+
+.goodsDescript {
+	height: 15px;
+	color: red;
+	font-weight: bold;
+}
+
+.goodsInfo p {
+	font-size: 13px;
+}
+
+.goodsPrice>span {
+	padding-left: 200px;
+	font-weight: bold;
+	font-size: 14px;
+	color: red;
+}
+
+#rushOrder {
+	color: #295b81;
+}
+
+.delStatusArea {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* div##dailyBestArea 끝 */
+
+/* div#categoryBestArea 시작 */
+#categoryBestArea {
+	width: 1200px;
+	overflow: hidden;
+	margin: 20px auto;
+}
+/* 카테고리 GNB 영역 시작 */
+ul#mainMenu {
+	width: 800px; /* border: 3px solid  #aaa; */
+	margin: 20px auto;
+	justify-content: space-around;
+}
+
+#mainMenu>li.mainLi {
+	width: 120px; /* border: 1px solid  #08f; */
+}
+
+#mainMenu>li.mainLi>a {
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	/* border: 1px solid  #f80; */
+	display: inline-block;
+}
+
+#mainMenu>li.mainLi:hover>a {
+	color: #888;
+	font-weight: bold;
+	background-color: rgba(0, 135, 255, 0.2);
+}
+
+.divider {
+	transform: translateY(10px);
+	width: 3px;
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+/* 카테고리 GNB 영역 끝 */
+
+/* 카테고리 이미지 영역 시작 */
+#categoryBestArea h1 {
+	font-size: 16px;
+}
+
+.categoryBestImgDiv {
+	margin-bottom: 50px;
+}
+
+.categoryBestImgArea {
+	width: calc(100%/ 4);
+	/* border: 1px solid #000;   */ /* 작업후 제거 */
+	padding-right: 5px;
+}
+
+div#TodayBestStatus {
+	justify-content: space-between;
+}
+
+.colorOption {
+	width: 225px;
+	display: inline-block;
+	margin-bottom: 10px;
+	/* border: 1px solid #000; 작업후 제거 */
+}
+
+.goodsName {
+	cursor: pointer;
+}
+
+.colorOption img {
+	height: 18px;
+}
+
+.reviewCnt {
+	font-size: 13px;
+}
+
+.goodsDescript {
+	height: 15px;
+	color: red;
+	font-weight: bold;
+}
+
+.goodsInfo p, a {
+	font-size: 13px;
+}
+
+.goodsPrice>span {
+	padding-left: 200px;
+	font-weight: bold;
+	font-size: 14px;
+	color: red;
+}
+
+#rushOrder {
+	color: #295b81;
+}
+
+.delStatusArea {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* 카테고리 이미지 영역 끝 */
+/* div#categoryBestArea 끝 */

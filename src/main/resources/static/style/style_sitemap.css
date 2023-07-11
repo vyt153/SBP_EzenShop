@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+div#sitemapArea {
+	padding: 20px 20px 50px 20px;
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	width: 70%;
+	height: 50%;
+	border: 3px solid #000;
+	border-radius: 10px;
+	z-index: 2;
+}
+
+div.siteHeader {
+	display: flex;
+	justify-content: space-between;
+}
+
+div.siteHeader>span {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+div.siteHeader>button {
+	display: block;
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+div#siteUlWrap {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25% ;
+	grid-template-rows: 100%;
+	margin: 25px auto;
+	width: 90%;
+	border: 1px solid #000;
+}
+
+div.siteUlArea {
+	text-align: center;
+	border: 1px solid #000;
+}
+
+div.siteUlArea>ul {
+	padding: 0;
+}
+div.siteUlArea>ul>li {
+	padding: 5px 10px;
+}

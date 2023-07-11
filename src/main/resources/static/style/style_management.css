@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+ /* 회원관리 페이지 시작 */
+
+div.userListTblHeader {
+	border-top:1px solid #000 ;
+}
+div.userListTblHeader>span {
+ 	font-weight: bold;
+}
+div.userListTbl {
+	border-bottom: 1px solid #000;
+}
+div.userListTbl>span {
+	display: block;
+	padding: 10px 12px;
+	text-align: center;
+}
+div.userListTbl>span:nth-child(1) {
+ 	width: 70px;
+}
+div.userListTbl>span:nth-child(2) {
+ 	width: 90px;
+}
+div.userListTbl>span:nth-child(3) {
+ 	width: 90px;
+}
+div.userListTbl>span:nth-child(4) {
+ 	width: 70px;
+}
+div.userListTbl>span:nth-child(5) {
+ 	width: 140px;
+}
+div.userListTbl>span:nth-child(6) {
+ 	flex : 1;
+}
+div.userListTbl>span:nth-child(7) {
+ 	width: 170px;
+}
+div#userListSrcArea {
+	margin-top: 20px;
+	justify-content : space-between;
+}
+div#totalUser {
+	flex : 1;
+}
+div#userSrcArea {
+	width: 320px;
+	justify-content : space-between;
+}
+div#userListPaging {
+	margin-top: 10px;
+	text-align: center;
+}
+div#userListPaging>span {
+	padding: 5px; width: 20px;
+	cursor: pointer;
+}
+
+ /* 회원관리 페이지 종료 */
+ 
+ 
+ /* 거래내역 상세보기 시작 */
+div.viewListTblHeader {
+	border-top: 1px solid #000;
+}
+
+div.viewListTblHeader>span {
+	font-weight: bold;
+}
+
+div.viewListTbl {
+	border-bottom: 1px solid #000;
+}
+
+div.viewListTbl>span {
+	display: block;
+	padding: 10px 12px;
+	text-align: center;
+}
+
+div.viewListTbl>span:nth-child(1) {
+	width: 70px;
+}
+
+div.viewListTbl>span:nth-child(2) {
+	width: 90px;
+}
+
+div.viewListTbl>span:nth-child(3) {
+	width: 90px;
+}
+
+div.viewListTbl>span:nth-child(4) {
+	width: 70px;
+}
+
+div.viewListTbl>span:nth-child(5) {
+	width: 140px;
+}
+
+div.viewListTbl>span:nth-child(6) {
+	flex: 1;
+}
+
+div.viewListTbl>span:nth-child(7) {
+	width: 170px;
+}
+/* 거래내역 상세보기 끝 */
+ 
+ 
+ 
+ 
+ 

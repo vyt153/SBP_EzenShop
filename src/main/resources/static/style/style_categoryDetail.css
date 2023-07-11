@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+div#wrap {
+	
+}
+
+div#innerWrap {
+	width: 100%;
+	margin: 0 auto 50px;
+	text-align: center;
+	background-color: #f7f8f8;
+}
+/* bestArea 시작 */
+div#bestArea {
+	width: 1640px;
+	margin: 0 auto;
+}
+
+div#title {
+	padding: 45px 0;
+}
+
+div#title h3 {
+	text-align: center;
+	margin: 0 0 5px;
+}
+
+div.item-list {
+	margin-bottom: 120px;
+}
+
+
+div.itemInfo {
+	position: relative;
+	font-size: 13px;
+}
+
+div.bestImg {
+	width: calc(100%/ 4);
+}
+
+div.bestImg img {
+	width: 390px;
+	height: 502px;
+	margin-right: 20px;
+}
+
+div.colorOption {
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+a.goodsName {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+div.item-list div.reviewCnt {
+	position: absolute;
+	right: 20px;
+	top: 0;
+}
+div.goodsInfo{
+	text-align: left;
+}
+p.goodsDescript {
+	height: 15px;
+	margin: 0;
+	color: red;
+	font-weight: bold;
+}
+
+p.goodsPrice {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
+}
+
+p.goodsPrice span {
+	position: absolute;
+	right: 20px;
+	top: 83px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #DB3536;
+}
+
+#rushOrder {
+	text-align: left;
+	
+	color: #295b81;
+}
+
+#delStatusArea {
+	text-align: left;
+	font-size: 10px;
+	font-weight: bold;
+}
+/* bestArea 끝 */
+
+/* categoryNameArea 시작 */
+div.class-list {
+	
+}
+
+div.class-list li {
+	float: left;
+	margin-right: 20px;
+}
+
+div.class-list a {
+	display: block;
+	font-size: 13px;
+	color: #919191;
+}
+
+div#categoryNameArea {
+	width: 1640px;
+	margin: 0 auto;
+}
+
+div#categoryNameArea>div#title {
+	padding: 0;
+	padding-top: 50px;
+}
+
+span#categoryName {
+	font-size: 18px;
+	color: #202020;
+	font-weight: bold;
+	display: inline-block;
+	margin-right: 20px;
+	padding-top: 13px;
+}
+
+div.item-info {
+	position: relative;
+	zoom: 1;
+	overflow: hidden;
+	padding: 35px 0 10px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+div.item-total {
+	padding-top: 20px;
+	font-size: 12px;
+	float: left;
+	color: #999
+	
+}
+.item-order li {
+    float: left;
+    padding: 0 15px;
+    position: relative;
+}
+
+.item-wrap .item-info .item-order li a .on:after {
+    background: #000;
+    border: 1px solid #000;
+}
+.item-order li a .on {
+    color: #000;
+    font-weight: bold;
+}
+.item-order{
+	position: absolute;
+	right: 0;
+	
+}
+a {
+    color: #000;
+    text-decoration: none;
+    background: none;
+}
+.item-order ul li {
+	list-style: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+div.categoryImg {
+	width: calc(100%/ 4);
+}
+
+div.categoryImg img {
+	width: 390px;
+	height: 502px;
+	margin-right: 20px;
+}
+
+/* 페이징 처리 시작 */
+div#categoryDetailPaging {
+	padding: 20px 0;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+div#categoryDetailPaging>span {
+	padding: 5px; width: 20px;
+	cursor: pointer;
+}
+/* 페이징 처리 끝 */
+
+
+
+
+
+
+
+
+
+

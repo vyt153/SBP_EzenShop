@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="com.shop.dao.MemberDao">
+	
+	<!-- 회원내역 -->
+	<select id="memberList" resultType="com.shop.dto.MemberDto">
+		select * from member order by num desc
+	</select>
+	
+	<!-- 회원정보 상세보기 -->
+	<select id="userView" resultType="com.shop.dto.MemberDto">
+		select * from member where num = #{param1}
+	</select>
+	
+	<!-- 내정보 보기 -->
+	<select id="myInfo" resultType="com.shop.dto.MemberDto">
+		select * from member where num = #{param1}
+	</select>
+	
+	
+</mapper>

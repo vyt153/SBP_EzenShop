@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+div#proArea {
+	width: 90%;
+	margin: 0 auto;
+}
+
+div#proTblArea {
+	width: 100%;
+	padding: 10px;
+}
+
+div#proHeader>span.sub {
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 20px;
+}
+
+div#proHeader>span.total {
+	font-size: 20px;
+}
+
+div#proTblArea {
+	padding: 20px;
+	margin: 10px auto;
+}
+
+div.proTblHeader {
+	font-weight: bold;
+}
+
+div.proTblList>span {
+	padding: 12px 15px;
+	font-size: 18px;
+	text-align: center;
+}
+
+div.proTblList>span:nth-child(1) {
+	width: 50px;
+}
+
+div.proTblList>span:nth-child(2) {
+	width: 120px;
+}
+
+div.proTblList>span:nth-child(3) {
+	width: 180px;
+}
+
+div.proTblList>span:nth-child(4) {
+	width: 180px;
+}
+
+div.proTblList>span:nth-child(5) {
+	width: 320px;
+	margin: 0 auto;
+}
+
+div.proTblList>span:nth-child(6) {
+	width: 150px;
+}
+
+div.proTblList>span:nth-child(7) {
+	width: 200px;
+}
+
+div.proTblList>span:nth-child(8) {
+	width: 170px;
+}
+
+div.proTblList span>b {
+	width: 100px;
+}
+
+div#srcArea {
+	margin: 20px auto;
+	position: relative;
+}
+
+div.src>select {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+
+div.src>input {
+	font-size: 18px;
+	margin: 0 15px;
+	padding: 5px 10px;
+}
+
+div.src>button {
+	width: 120px;
+	font-size: 18px;
+	padding: 3px 10px;
+	position: relative;
+	top: 1.5px;
+}
+
+div.goRegList>button {
+	width: 120px;
+	font-size: 18px;
+	padding: 3px 10px;
+	position: relative;
+	top: 1.5px;
+}
+
+span>a.goodsRegAtag:hover {
+	font-weight: bold;
+}
+/* 상품등록 페이지 시작 */
+div#proRegTblArea {
+	width: 100%;
+}
+
+div#proRegTbl {
+	margin: 0 auto;
+}
+
+div.proRegTr {
+	width: 600px;
+	padding: 12px 15px;
+	margin: 10px 15px;
+}
+
+div.proRegTr>span {
+	font-size: 20px;
+}
+
+div.proRegTr input {
+	font-size: 20px;
+	width: 200px;
+}
+
+div.proRegTr select {
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+div.proRegTr>span:first-child {
+	width: 100px;
+	font-weight: bold;
+}
+
+div.proRegTr>span:nth-child(2) {
+	width: 200px;
+}
+
+div.colorSizeCnt {
+	margin-bottom: 20px;
+}
+
+div.colorSizeCnt span {
+	display: block;
+}
+
+div#colorSizeCntArea {
+	padding: 12px 15px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+div#colorSizeCntArea>span {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	display: block;
+}
+
+div.colorSizeCnt {
+	
+}
+
+div.colorSelect {
+	width: 200px;
+	margin-bottom: 10px;
+	justify-content: space between;
+}
+
+div.colorSelect>input {
+	font-size: 18px;
+	width: 100px;
+}
+
+div.colorSelect>button {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+
+div.sizeCntList {
+	width: 300px;
+}
+
+div.sizeCntList>input {
+	width: 50px;
+	margin-right: 10px;
+}
+
+label.sizeChk {
+	width: 80px;
+}
+
+label.sizeChk>span {
+	font-size: 20px;
+}
+
+label.sizeChk>span:nth-child(1) {
+	width: 20px;
+	display: block;
+}
+
+label.sizeChk>input[type=text] {
+	width: 50px;
+}
+
+span#csSub {
+	position: relative;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 20px;
+}
+
+div#proRegBtnArea>button {
+	margin: 10px 15px;
+	padding: 5px 10px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	width: 150px;
+}
+
+div.colorSizeCnt:not(:nth-child(1)) button#colorAddBtn {
+	display: none;
+}
+
+div.colorSizeCnt:not(:nth-child(1)) button#colorDelBtn {
+	display: none;
+}
+/* 상품등록 페이지 종료 */
+table#pTable {
+	margin: 10px auto;
+}
+table#pTable td {
+	font-size: 22px;
+	margin: 0 10px;
+}
+

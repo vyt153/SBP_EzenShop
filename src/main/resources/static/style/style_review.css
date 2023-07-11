@@ -1,0 +1,211 @@
+@charset "UTF-8";
+div#reViewArea {
+	width: 70%;
+	margin: 10px auto;
+}
+div.topReview{
+	padding: 12px;
+	justify-content : space-between;
+}
+div#topRight {
+	position: relative;
+	top: 20px;
+}
+div#topRight>span {
+	font-size: 18px;
+	display: block;
+	margin-right: 20px;
+}
+div#topRight>span:nth-child(2n-1):hover {
+	font-weight: bold;	
+}
+
+div#picListArea>span {
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing : 3px;
+}
+
+.review_Star_List fieldset{
+    display: inline-block;
+    direction: rtl;
+    border:0;
+}
+.review_Star_List fieldset legend{
+    text-align: right;
+}
+.review_Star_List input[type=radio]{
+    display: none;
+}
+.review_Star_List label{
+    font-size: 2em;
+    color: transparent;
+    text-shadow: 0 0 0 #f0f0f0;
+}
+label.filled{
+    text-shadow: 0 0 0 rgba(250, 208, 0, 0.99);
+}
+img.reviewList {
+	width: 150px;
+}
+.review_Star fieldset{
+    display: inline-block;
+    direction: rtl;
+    border:0;
+}
+.review_Star fieldset legend{
+    text-align: right;
+}
+.review_Star input[type=radio]{
+    display: none;
+}
+.review_Star label{
+    font-size: 2em;
+    color: transparent;
+    text-shadow: 0 0 0 #f0f0f0;
+}
+.review_Star label:hover{
+    text-shadow: 0 0 0 rgba(250, 208, 0, 0.99);
+}
+.review_Star label:hover ~ label{
+    text-shadow: 0 0 0 rgba(250, 208, 0, 0.99);
+}
+.review_Star input[type=radio]:checked ~ label{
+    text-shadow: 0 0 0 rgba(250, 208, 0, 0.99);
+}
+
+span#review_Sub {
+	font-size: 30px;
+	letter-spacing : 3px;
+	font-weight: bold;
+}
+div#picListArea {
+	
+}
+div.review_Filter {
+	width: 90%;
+	padding: 10px;
+	margin: 20px auto;
+}
+div.review_Filter>button {
+	font-size: 18px;
+	width: 100px;
+	padding: 5px 12px;
+	border: 2px solid #000;
+	border-radius: 10px;
+	margin-right:20px;
+	letter-spacing : 3px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #000;
+	cursor: pointer;
+}
+div.review_Filter>button:hover {
+	background-color: #666;
+}
+div#reivewImgArea {
+	width: 90%;
+	margin: 20px auto;
+}
+div#reivewImgArea img {
+	width: 20%;
+	height: 160px;
+}
+div.reviewTblList {
+	width: 90%;
+	margin: 20px auto;
+	padding: 10px;
+	border-top: 1px solid #222;
+	border-bottom: 1px solid #222;
+}
+div.reviewLeft {
+	width: 70%;
+	margin: 10px;
+}
+div.reviewRight {
+	flex:1;
+	margin: 10px;
+	padding-left: 10px;
+	border-left: 1px solid #000;
+}
+idv.reviewRight>span {
+	font-size: 20px;
+}
+div.reviewRight>span, div.reviewLeft>span {
+	display: block;
+}
+div.review_Tbl_Footer {
+	text-align: right;
+	margin-right: 50px;
+}
+div.review_Tbl_Footer button {
+	font-size: 18px;
+	width: 120px;
+	padding: 3px 5px;
+	cursor: pointer;
+	background-color: #000;
+	color: #fff;
+	letter-spacing : 3px;
+}
+div.review_Tbl_Footer button:hover {
+	background-color: #666;
+}
+/* 상품 후기 작성 페이지 */
+div#reviewRegArea {
+	width: 40%;
+	padding: 15px;
+	margin: 10px auto;
+	border: 3px solid #000;
+	border-radius: 20px;
+}
+div#rArea {
+	width: 90%;
+	padding: 20px;
+	justify-content : space-between;
+}
+div#rArea div {
+	margin: 3px 15px;
+}
+div#rtextarea>span {
+	display: block;
+	font-size: 18px;
+}
+div#rtextarea>textarea {
+	margin: 10px 0;
+	padding: 10px;
+	width: 90%;
+	height: 100px;
+}
+div#rUserInfo {
+	width: 50%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+div#rUserInfo>input {
+	margin-bottom: 10px;
+	padding: 3px 5px;
+}
+div#rUserInfo>span {
+	display: block;
+}
+div#rBtnArea {
+	margin-top: 20px;
+	text-align: center;
+}
+div#rBtnArea>button {
+	width: 150px;
+	font-size: 20px;
+	padding: 7px 12px;
+	border: 2px solid #000;
+	border-radius: 7px;
+	letter-spacing : 3px;
+	background-color: #000;
+	color: #fff;
+	cursor: pointer;
+}
+div#rBtnArea>button:hover {
+	font-weight: bold;
+	background-color: #666;
+}
+/* 상품 후기 작성 페이지 */

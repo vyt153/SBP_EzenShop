@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/*/////////////// 로그인 시작 /member/login.jsp //////////////// */
+#wrap #main.loginPage {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -70%);
+	text-align: center;
+	padding: 40px;
+	background-color: #fff;
+	flex-direction: column;
+}
+
+#main.loginPage .logoArea img {
+	width: 300px;
+}
+
+#wrap #main>div.loginDiv form#loginFrm {
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+#main .loginDiv>#loginFrm input {
+	width: 280px;
+	font-size: 17px;
+	padding: 13px 16px;
+	margin-bottom: 7px;
+	display: block;
+	border: 1px solid #858585;
+	border-radius: 4px;
+}
+
+#main .loginDiv>#loginFrm input:focus-visible {
+	border: 1px solid #50b639;
+	outline: 1px solid #50b639;
+}
+
+#main .loginDiv>#loginFrm button {
+	width: 314px;
+	color: #fff;
+	font-size: 18px;
+	padding: 15px 20px;
+	border: none;
+	margin-top: 17px;
+	margin-bottom: 7px;
+	background-color: #535650;
+	cursor: pointer;
+	display: block;
+	border-radius: 4px;
+}
+
+#main .loginDiv #find_wrap {
+	padding: 20px 0 35px;
+	text-align: center;
+}
+
+#main .loginDiv #find_wrap li {
+	position: relative;
+	display: inline-block;
+}
+
+#main .loginDiv #find_wrap li+li {
+	padding-left: 28px;
+}
+
+#main .loginDiv #find_wrap .find_text {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 17px;
+	text-decoration: none;
+	color: #888;
+}
+
+#main .loginDiv #find_wrap .find_text:before {
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: 12px;
+	width: 1px;
+	height: 12px;
+	border-radius: 0.5px;
+	background-color: #dadada;
+}
+/*/////////////// 로그인 끝 /member/login.jsp //////////////// */

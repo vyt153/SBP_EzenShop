@@ -1,0 +1,185 @@
+@charset "UTF-8";
+@charset "UTF-8";
+
+/* main영역 시작  */
+.goods-thumb-area{
+	margin: 0 auto;
+	width: 1200px;
+	height: 754px;
+}
+div.goods-tumb {
+	width: 100%;
+	
+}
+div#goods-img{
+	margin-right: 100px;
+}
+/* main 상단 사진영역  */
+
+/* main 상단 사진영역  */
+div#goodsOrder {
+	width: 500px;
+	
+	
+}
+h3.title{
+	margin-top: 0;
+	padding-top: 0;
+	padding-left: 10px;
+}
+
+/*  사이즈버튼   */
+div#orderArea {
+}
+
+div#orderArea div.sizeBtn button {
+	font-size: 13px;
+	padding: 3px;
+	border: 1px solid #aaa;
+	color: #555;
+	background-color: #fff
+}
+
+div#orderArea div.sizeBtn button:hover {
+	color: #fff;
+	background-color: #555;
+}
+
+div#orderArea .sendBtn {
+	font-size: 13px;
+	padding: 3px;
+	border: 1px solid #aaa;
+	color: #555;
+	background-color: #fff
+}
+
+div#orderArea .sendBtn:hover {
+	color: #fff;
+	background-color: #555;
+}
+
+/*  사이즈버튼   */
+div#rviewArea {
+	width: 1200px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+div#qnaArea {
+	width: 1200px;
+	border: 1px solid #000;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+div#picListArea {
+
+	padding: 1px;
+	margin: 1px;
+}
+
+div#picListArea img {
+	border: 1px solid #000;
+	padding: 1px;
+	margin: 1px;
+}
+
+div#revies {
+	border: 1px solid #000;
+	padding: 1px;
+	margin: 1px;
+}
+
+pre {
+	font-size: 12px;
+	padding: 10px;
+	line-height: 25px;
+}
+
+main#main div#orderArea>table {
+	font-size: 14px;
+	line-height: 30px;
+}
+
+main#main div#orderArea div#btnArea {
+	width: 100%;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+main#main div#orderArea div#btnArea>button.scBtn {
+	border: 1px solid #aaa;
+	color: #555;
+	background-color: #fff;
+	width: 100px;
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+main#main div#orderArea div#btnArea>button.scBtn:hover {
+	color: #eee;
+	background-color: #555;
+	width: 100px;
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+main#main div#orderArea div#btnArea>button.fBtn {
+	border: 1px solid #aaa;
+	color: #eee;
+	background-color: #555;
+	width: 220px;
+	margin: 0 5px 13px 0;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+main#main div#orderArea div#btnArea>button.fBtn:hover {
+	color: #000;
+	background-color: #fff;
+}
+/* main영역 끝  */
+
+/* div#mGnbMenu 영역 시작   */
+div#mGnbMenu {
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+}
+
+div#mGnbMenu span {
+	margin: 10px;
+	font-size: 20px;
+}
+
+div#mGnbMenu span:first-child {
+	
+}
+
+
+
+
+/* div#mGnbMenu 영역 시작   */
+/* div#mGnbMenu 영역 시작   */
+div#mGnbMenu {
+	width: 100%;
+	padding-top: 100px;
+
+	text-align: center;
+}
+
+div#mGnbMenu span {
+	margin: 10px;
+	font-size: 20px;
+}
+
+div#mGnbMenu span:first-child {
+	
+}
+
+/* div#mGnbMenu 영역 시작   */
+
+

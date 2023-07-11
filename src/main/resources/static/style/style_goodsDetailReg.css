@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import url("style_Reset.css");
+
+#goodsTXT{
+	font-size: 14px;
+	width: 500px;
+	height: 250px;
+}
+
+input#adImgs{
+	margin-left: 20px;
+	margin: 0 auto;
+}
+#adImgRegBtn{
+	margin: auto;
+}
+.addImage-container{
+	
+	padding-top: 50px;
+	margin-left: 83px;
+}
+
+

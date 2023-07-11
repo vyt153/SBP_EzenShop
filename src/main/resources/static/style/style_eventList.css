@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+body, h1, h2, h3, h4, h5, h6, table, pre, xmp, plaintext, listing, input, textarea, select, button, a {
+    font-size: 12px;
+    color: #1c1c1c;
+    line-height: 1.25;
+    font-family: 'Noto Sans KR', AppleGothic, Helvetica, sans-serif;
+}
+
+h3.title{
+	text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    color: #000;
+    padding: 50px 0 80px;
+}
+div#content{
+	
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.faq-menu li {
+    display: inline-block;
+    padding: 0 20px;
+    position: relative;
+}
+li {
+    list-style: none;
+}
+html, body, pre, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, li, ol, th, td, p, blockquote, form, fieldset, legend, menu, nav, section, hgroup, article, header, aside, footer, input, select, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+* {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.faq-menu {
+    font-size: 0;
+    text-align: center;
+}
+ul {
+	
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+body, h1, h2, h3, h4, h5, h6, table, pre, xmp, plaintext, listing, input, textarea, select, button, a {
+    font-size: 12px;
+    color: #1c1c1c;
+    line-height: 1.25;
+    font-family: 'Noto Sans KR', AppleGothic, Helvetica, sans-serif;
+}
+.faq-menu {
+    font-size: 0;
+    text-align: center;
+}
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.faq-menu li:after {
+    content: '';
+    width: 1px;
+    height: 14px;
+    background: #ddd;
+    position: absolute;
+    top: 2px;
+    right: 0;
+}
+.faq-menu li a {
+	vertical-align: middle;
+    font-size: 14px;
+    color: #a8a8a8;
+    padding-bottom: 5px;
+    display: block;
+}
+.faq-menu li.now a {
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+.bbs-table-list {
+    margin-top: 70px;
+}
+.clear {
+    zoom: 1;
+}
+.fixed-img-collist ul li {
+    float: left;
+    width: calc(25% - 15px);
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+.fixed-img-collist ul li a {
+    display: block;
+}
+.fixed-img-collist ul li a span {
+    margin-bottom: 10px;
+}
+.fixed-img-collist ul li a img{
+	width: 310px;
+}
+
+img, fieldset, button {
+    border: 0 none;
+}
+fieldset{
+	margin-left: 40px;
+}
+
+.bbs-btm {
+	padding: 15px 0;
+    position: relative;
+    *zoom: 1;
+}
+.bbs-sch label {
+    margin-right: 10px;
+    font-size: 11px;
+}
+.bbs-sch .key-wrap, .bbs-sch .keyword, .bbs-sch img {
+    vertical-align: middle;
+}
+.bbs-sch .key-wrap {
+    font-size: 0;
+    line-height: 0;
+    display: inline-block;
+    border-bottom: 1px solid #000;
+}
+.bbs-sch .MS_input_txt {
+    margin: 0;
+    padding: 0 0 0 5px;
+    width: 178px;
+    height: 28px;
+    border: 0;
+}
+.MS_input_txt {
+    margin-right: 5px;
+    padding: 2px 0 0 2px;
+    line-height: 31px;
+    height: 31px;
+}
+.xi-search img{
+    width: 20px;
+}
+.xi-search img:hover{
+	cursor: pointer;
+}
+
+.bbs-link {
+    position: relative;
+}
+.bbs-link {
+	margin-left: 760px; 
+    float: right;
+}
+.bbs-btm .bbs-link a {
+    margin-left: 3px;
+    width: 108px;
+    height: 38px;
+    font-size: 13px;
+    line-height: 38px;
+}
+.CSSbuttonWhite {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.bbs-btm .bbs-paging .paging {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.paging a {
+    display: inline-block;
+    height: 34px;
+    font-size: 16px;
+    line-height: 34px;
+    width: 34px;
+    font-size: 12px;
+    color: #a8a8a8;
+}
+.paging a:hover, .paging a.now, .paging .now {
+    color: #000;
+    background: #f3f3f3;
+}
+
+/* 페이징 처리 시작 */
+div#eventListPaging {
+	padding: 20px 0;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+div#eventListPaging>span {
+	padding: 5px; width: 20px;
+	cursor: pointer;
+}
+/* 페이징 처리 끝 */
+

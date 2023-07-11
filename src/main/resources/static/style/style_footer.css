@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+div#footerArea {
+	width: 100%;
+	position: relative;
+	right: 10px;
+}
+div#siteInfo {
+	width: 100%;
+	padding: 20px;
+	background-color: #eee;
+}
+div.infoArea{
+	width: 25%;
+}
+span.infoSub {
+	font-weight: bold;
+}

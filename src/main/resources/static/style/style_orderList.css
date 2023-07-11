@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+* {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div#wrap {
+	width: 100%;
+	margin-top: 200px;
+}
+
+.dFlex {
+	display: flex;
+}
+
+div#innerWrap {
+	width: 85%;
+	margin: 0 auto 50px;
+}
+
+div#orderListTblArea div.orderListTblHeader span {
+	border: 
+}
+
+
+div.orderListTblHeader {
+	border-top:1px solid #000 ;
+}
+div.orderListTblHeader>span {
+ 	font-weight: bold;
+}
+div.orderListTbl {
+	border-bottom: 1px solid #000;
+}
+div.orderListTbl>span {
+	display: block;
+	padding: 10px 12px;
+	text-align: center;
+}
+div.orderListTbl>span:nth-child(1) {
+ 		flex : 1;
+}
+div.orderListTbl>span:nth-child(2) {
+ 	width: 100px;
+}
+div.orderListTbl>span:nth-child(3) {
+ 	width: 100px;
+}
+div.orderListTbl>span:nth-child(4) {
+ 	width: 100px;
+}
+div.orderListTbl>span:nth-child(5) {
+ 	width: 160px;
+}
+div.orderListTbl>span:nth-child(6) {
+width: 100px;
+}
+div.orderListTbl>span:nth-child(7) {
+ 	width: 170px;
+}
+/* 
+
+
+
+ */
